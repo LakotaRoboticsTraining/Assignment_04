@@ -238,48 +238,43 @@ Use a ternary so `speedStatus` is `"Fast"` or `"Slow"` when `driveSpeed > 0.5`. 
 `int mode = 1;`  
 Switch: `1` â†’ `Auton`, `2` â†’ `Teleop`, else â†’ `Disabled`.
 
-### Check your understanding
+## Check your understanding
 
-1. When does the else block run?
+1. <details>
+     <summary>When does the `else` block run?</summary>
+     When the `if` condition is false.
+   </details>
+2. <details>
+     <summary>What is the difference between `=` and `==`?</summary>
+     `=` stores a value; `==` asks if two values are equal.
+   </details>
+3. <details>
+     <summary>What does `!ready` mean if `ready` is `true`?</summary>
+     `false` (`!` flips true/false).
+   </details>
+4. <details>
+     <summary>When is `a && b` true?</summary>
+     When both `a` and `b` are true.
+   </details>
+5. <details>
+     <summary>When is `a || b` true?</summary>
+     When at least one of `a` or `b` is true.
+   </details>
+6. <details>
+     <summary>What is the syntax for a ternary operator?</summary>
+     `condition ? valueIfTrue : valueIfFalse;`
+   </details>
+7. <details>
+     <summary>When is a `switch` statement preferred over if-else blocks?</summary>
+     When you need to compare a single variable against multiple specific values.
+   </details>
+8. <details>
+     <summary>What is the purpose of the reak keyword in a switch statement?</summary>
+     To stop the code from falling through to the next case.
+   </details>
 
-2. What is the difference between = and ==?
-
-3. What does !ready mean if ready is true?
-
-4. When is a && b true?
-
-5. When is a || b true?
-
-6. What is the syntax for a ternary operator?
-
-7. When is a switch statement preferred over if-else blocks?
-
-8. What is the purpose of the 'break' keyword in a switch statement?
-
-Answers on the next page
-
-### Looking ahead
+## Looking ahead
 
 In Lesson 5, you will use loops to repeat code - for example, printing a countdown or running a step several times. Loops use the same true/false conditions you just practiced.
 
 Lesson complete. When you can write if, else if, and else with comparisons and &amp;&amp; / ||, you are ready for Lesson 5.
-
----
-
-Answers
-
-1. When the if condition is false.
-
-2. = stores a value; == asks if two values are equal.
-
-3. false (! flips true/false).
-
-4. When both a and b are true.
-
-5. When at least one of a or b is true.
-
-6. condition ? valueIfTrue : valueIfFalse;
-
-7. When you need to compare a single variable against multiple specific values.
-
-8. To stop the code from falling through to the next case.
