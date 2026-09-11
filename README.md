@@ -10,7 +10,7 @@ You will learn:
 - How else runs when the condition is false
 - How else if chains more than two options
 - Using comparisons (>, <, >=, <=, ==, !=) and && / || in conditions
-Before this lesson: Lessons 1–3 (main, variables, booleans, comparisons, math operators).
+Before this lesson: Lessons 1-3 (main, variables, booleans, comparisons, math operators).
 
 ### Why this matters for robots
 
@@ -200,40 +200,40 @@ if (batteryPercent < 20) {
 
 - Using = instead of == in a condition
 - Missing braces
-- Semicolon after if — if (x > 0); { ... } makes the if do nothing
-- Comparing String with == — for text equality you will learn .equals soon; for this lesson compare numbers and booleans
-- Code outside main — keep these decisions inside main for now (methods come in Lesson 6)
+- Semicolon after if - if (x > 0); { ... } makes the if do nothing
+- Comparing String with == - for text equality you will learn .equals soon; for this lesson compare numbers and booleans
+- Code outside main - keep these decisions inside main for now (methods come in Lesson 6)
 
 ## Try it yourself
 
 Edit `Main.java`. Put **all** challenge code inside `main`. Use the suggested variable values so your output matches the tests.
 
-### Challenge 1 â€” Shooter ready
+### Challenge 1 - Shooter ready
 
 `double rpm = 3200;`  
 If `rpm >= 3000` print `Shooter ready`, else print `Spinning up`.
 
-### Challenge 2 â€” Alliance
+### Challenge 2 - Alliance
 
 `char alliance = 'R';`  
 Print `Red`, `Blue`, or `Unknown`.
 
-### Challenge 3 â€” Can shoot?
+### Challenge 3 - Can shoot?
 
 `boolean hasNote = true;` and `boolean atSpeed = true;`  
 If both are true print `Fire`, else print `Wait`.
 
-### Challenge 4 â€” Speed limit
+### Challenge 4 - Speed limit
 
 `double driveSpeed = 1.2;`  
 If `driveSpeed >= 1.0` print `Too fast` (mention capping at 1.0), else print `Speed OK`.
 
-### Challenge 5 â€” Ternary speed
+### Challenge 5 - Ternary speed
 
 `double driveSpeed = 0.8;`  
 Use a ternary so `speedStatus` is `"Fast"` or `"Slow"` when `driveSpeed > 0.5`. Print it.
 
-### Challenge 6 â€” Switch mode
+### Challenge 6 - Switch mode
 
 `int mode = 1;`  
 Switch: `1` â†’ `Auton`, `2` â†’ `Teleop`, else â†’ `Disabled`.
@@ -260,7 +260,7 @@ Answers on the next page
 
 ### Looking ahead
 
-In Lesson 5, you will use loops to repeat code — for example, printing a countdown or running a step several times. Loops use the same true/false conditions you just practiced.
+In Lesson 5, you will use loops to repeat code - for example, printing a countdown or running a step several times. Loops use the same true/false conditions you just practiced.
 
 Lesson complete. When you can write if, else if, and else with comparisons and &amp;&amp; / ||, you are ready for Lesson 5.
 
