@@ -208,6 +208,8 @@ if (batteryPercent < 20) {
 
 Edit `Main.java`. Put **all** challenge code inside `main`. Use the suggested variable values so your output matches the tests.
 
+Do **not** edit `MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `Main.java`.
+
 ### Challenge 1 - Shooter ready
 
 `double rpm = 3200;`  
@@ -236,7 +238,7 @@ Use a ternary so `speedStatus` is `"Fast"` or `"Slow"` when `driveSpeed > 0.5`. 
 ### Challenge 6 - Switch mode
 
 `int mode = 1;`  
-Switch: `1` â†’ `Auton`, `2` â†’ `Teleop`, else â†’ `Disabled`.
+Switch: `1` â†' `Auton`, `2` â†' `Teleop`, else â†' `Disabled`.
 
 ## Check your understanding
 
