@@ -206,9 +206,9 @@ if (batteryPercent < 20) {
 
 ## Try it yourself
 
-Edit `Main.java`. Put **all** challenge code inside `main`. Use the suggested variable values so your output matches the tests.
+Edit `src/main/java/Main.java`. Put **all** challenge code inside `main`. Use the suggested variable values so your output matches the tests.
 
-Do **not** edit `MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `Main.java`.
+Do **not** edit `src/test/java/MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `src/main/java/Main.java`.
 
 ### Challenge 1 - Shooter ready
 
