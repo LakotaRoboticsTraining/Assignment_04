@@ -206,6 +206,9 @@ if (batteryPercent < 20) {
 
 ## Try it yourself
 
+> **Find your starter file:** In the file explorer, open the `src` folder, then `main`, then `java`. Edit the existing `Main.java` there.
+> Do **not** create a new `Main.java` at the top of the repo.
+
 Edit `src/main/java/Main.java`. Put **all** challenge code inside `main`. Use the suggested variable values so your output matches the tests.
 
 Do **not** edit `src/test/java/MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `src/main/java/Main.java`.
